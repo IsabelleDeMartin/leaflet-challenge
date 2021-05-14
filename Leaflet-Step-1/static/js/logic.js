@@ -35,11 +35,23 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_m
     function getColor(x) {
         switch (true) {
             case x > 90:
-                return "#456789";
+                return "#873257";
             case x > 80:
-                return "#232323";
+                return "#637124";
             case x > 70:
-                return "#767676";
+                return "#992357";
+            case x > 60:
+                return "#777325";
+            case x > 50:
+                return "#145279";
+            case x > 40:
+                return "#297113";
+            case x > 30:
+                return "#122958";
+            case x > 20:
+                return "#393291";
+            case x > 10:
+                return "#814591";
 
 
             default:
